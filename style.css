@@ -1,6 +1,10 @@
 html{
     font-family: 'Kaisei Tokumin', serif;
-    /* text-align: center; */
+    text-align: center; 
+}
+#teachersContainer{
+    display:flex;
+    justify-content: space-around;
 }
 .cardContainer{
     background-color: whitesmoke;
@@ -23,4 +27,8 @@ html{
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+ul{
+    list-style: none;
+    color: rgb(81, 148, 250);
 }
