@@ -1,5 +1,6 @@
 html{
     font-family: 'Kaisei Tokumin', serif;
+    /* text-align: center; */
 }
 .cardContainer{
     background-color: whitesmoke;
@@ -13,4 +14,13 @@ html{
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+#scholarshipCalculator form{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
